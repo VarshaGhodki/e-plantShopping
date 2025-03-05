@@ -12,7 +12,6 @@ function ProductList({ onHomeClick }) {
     const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
     const [addedToCart, setAddedToCart] = useState({});
 
-    const cartItems = useSelector("cart");
 
     const plantsArray = [
         {
